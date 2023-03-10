@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    
+</head>
+<body>
+    <header>
+        <div class="conteiner">
+            <div class="padre">
+                <div class="decolorado">
+                
+                </div>
+
+                <div class="contenido">
+                    <h1>Hola, Soy Arley Hurtado</h1>
+                        <div class="logos">
+                            <img src="https://assets.stickpng.com/images/623dd7d270712bdafc63c38a.png" alt="">
+                            <img src="https://cdn.icon-icons.com/icons2/2715/PNG/512/instagram_logo_icon_172387.png" alt="">
+                            <img src="https://www.pngarts.com/files/8/Github-Logo-PNG-Free-Download.png" alt="">
+                        </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="conteiner">
+            <div class="contenidoPrincipal">
+                <h2>Yo <span class="corazon">💓</span> Programar</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit
+                Fuga unde, aliquam fugit laboriosam, aliquid maiores eos
+                minima neque qui quasi nemo? Est dicta ipsam quo beatae
+                fugit expedita ipsum ab.lorem Lorem, ipsum dolor sit amet
+                consectetur adipisicing elit. Fugit, nam, facilis nostrum
+                quam velit dolore quis voluptas quasi ea minima quod nisi
+                ex porro maiores quibusdam aliquid aliquam laboriosam atque.
+                </p>
+                <div class="botom" onclick="mostrarBanner()">
+                    <a href="" >Contacto </a>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <div class="bannerContenedor">
+        <div class="banner">
+            <div class="desarrollo">
+                <img src="" alt="">
+                <p>Desarrollo Web</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque iste temporibus ratione eum quasi libero culpa id cum conseq</p>
+
+            </div>
+
+            <div class="desarrolloM">
+                <img src="" alt="">
+                <p>Desarrollo Movil</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque iste temporibus ratione eum quasi libero culpa id cum conseq</p>
+
+            </div>
+
+            <div class="diseno">
+                <img src="" alt="">
+                <p>Diseño Web</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque iste temporibus ratione eum quasi libero culpa id cum conseq</p>
+            </div>
+        </div>
+    </div>
+
+    <aside>
+        <div id="contactoBanner">
+            <div class="barrita">
+                <input type="button" value="X" onclick="cerrar()">
+            </div>
+            <h3>Contacto</h3>
+            <p>Si quieres saber mas de mi llamame 01 8000 992 183</p>
+            <p>Nombre</p>
+            <input type="text" name="nombre" id="nombre" class="bordes"><br>
+            <p>Correo Eletronico</p>
+            <input type="email" name="email" id="email" class="bordes"><br>
+            <p>Mensaje</p>
+            <input type="text" name="mensaje" id="mensaje" class="bordes"><br><br>
+
+            <input type="button" value="Enviar" id="bo" onclick="ocultarBanner()">
+        </div>
+    </aside>
+
+    <footer>
+        <div class="contenedordelpie">
+            <header>
+                <div class="cabezaPie">
+                    <img src="./archivo2.svg" alt="">
+                </div>
+            </header>
+        
+                <div class="pie">
+                    <div class="derechos">
+                        <p>Derechos Reservados a ARLEY HURTADO</p>
+                    </div>
+            
+                    <div class="derechos">
+                        <p>CALLE 58C#98B15</p>
+                    </div>
+            
+                    <div class="listica">
+                        <ul><a href="">¿QUIENES SÓMOS?</a>
+                            <a href="">CONTACTANOS</a>
+                            <a href="">SIGUENOS</a>
+                            <a href="">ASESORIAS</a>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </footer>
+    <script>
+        let banner = document.getElementById('contactoBanner');
+
+        function ocultarBanner(){
+            alert('Información Enviada Tenga un feliz día')
+            banner.style.display = 'none';
+        }
+
+        function cerrar(){
+            alert('Tenga un feliz día')
+            banner.style.display = 'none';
+        }
+
+        function mostrarBanner(){
+            banner.style.display = 'block';
+        }
+    </script>
+
+
+
+</body>
+</html>

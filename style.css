@@ -1,0 +1,220 @@
+html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    background: #fff;
+    border-radius: 9px;
+}
+
+.decolorado{
+    height: 2.5rem;
+    background: #D3D1CB;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.logos img{
+    width: 50px;
+    height: 50px;
+}
+
+.contenido{
+    background: #FFF;
+}
+
+.contenido h1{
+
+    padding-top: 30px;
+    margin-bottom: 1.5rem;
+    margin-top: 0;
+}
+
+
+
+.corazon{
+    font-size: 4.1rem;
+}
+
+.contenidoPrincipal h2{
+    font-size: 2.8rem;
+    margin-top: 0;
+    text-align: center;
+}
+
+.contenidoPrincipal p{
+    font-size: 1.3rem;
+}
+
+.botom{
+    font-weight: 700;
+    padding: 10px 10px;
+    background: crimson;
+    max-width: 240px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.botom:hover{
+    background: linear-gradient(#2e1717, #67cce6);
+}
+:root{
+    --mivar:100vh;
+
+}
+section{
+    background-image: url('https://images.pexels.com/photos/2481177/pexels-photo-2481177.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load');
+    background-size: cover;
+    background-position: center;
+    color: #FFF;
+    
+}
+
+.conteiner{
+    max-width: 1024px;
+    margin: auto;
+}
+
+header .conteiner{
+    max-width: 100% !important;
+    text-align: center;
+}
+
+.desarrollo{
+    background: #FFF;
+    min-width: 250px;
+    max-height: 300px;
+
+}
+.desarrolloM{
+    background: #FFF;
+    min-width: 250px;
+    max-height: 300px;
+
+}
+
+.diseno{
+    background: #FFF;
+    min-width: 250px;
+    max-height: 300px;
+
+}
+.bannerContenedor{
+    margin: auto;
+    max-width: 1024px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 300px;
+    position: relative;
+    gap: 10px;
+    max-width: 1000px;
+    justify-content: end;
+    padding-right: 20px;
+    margin-top: -100px;
+
+}
+
+.banner p{
+    font-size: 1.3rem;
+    color: black;
+    text-align: center;
+}
+
+section .conteiner{
+    padding-bottom: 200px;
+}
+.barrita{
+    text-align: end;
+}
+#contactoBanner{
+    
+    padding: 10px 20px;
+    border: salmon solid 1px;
+    border-radius: 9px;
+    background: linear-gradient(to left, #ca6dae, #dad1d1);
+    max-width: 500px;
+    max-height: 650px;
+    text-align: center;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#contactoBanner h3{
+    font-size: 1.9rem;
+}
+#contactoBanner p{
+    font-size: 1.3rem;
+}
+.bordes{
+    border-radius: 5px;
+    width: 300px;
+    height: 50px;
+}
+
+#bo{
+    padding: 10px;
+    color: red;
+    border-radius: 9px;
+}
+
+.pie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pie a{
+    text-decoration: none;
+    color: #000;
+}
+footer{
+    background-image: url(./pie.svg);
+    padding-bottom: 100px;
+    border: solid 3px cyan;
+}
+
+#bo:hover{
+    background: linear-gradient(to top, tomato, cyan);
+}
+@media(min-width:250px) and (max-width:670px){
+
+    body{
+        padding: 10px !important;
+    }
+
+    .banner{
+        font-size: 0 !important;
+    }
+
+    footer{
+        background-image: url(./pie.svg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding-bottom: 0;
+        border: none;
+    }
+}
